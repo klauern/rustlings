@@ -1,9 +1,10 @@
-// TODO: Fix the compiler error on this function.
 fn picky_eater(food: &str) -> &str {
     if food == "strawberry" {
         "Yummy!"
+    } else if food == "broccoli" || food == "gummy bears" || food == "literally anything" {
+        "No thanks!"
     } else {
-        1
+        "I guess I can eat that."
     }
 }
 
